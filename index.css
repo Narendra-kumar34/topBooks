@@ -1,0 +1,61 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+nav {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: rgba(52, 201, 75, 1);
+    padding: 1rem;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.content {
+    padding: 1rem;
+}
+
+.list {
+    line-height: 2rem;
+}
+
+.bookLink {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.mainContent {
+    padding: 0rem 0rem 1rem 2rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10rem;
+}
+
+.buyButton {
+    background-color: rgba(52, 201, 75, 1);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.posters {
+    padding-left: 4rem;
+}
